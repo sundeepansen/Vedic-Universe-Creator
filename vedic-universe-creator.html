@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Vedic Universe Creator</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <script src="app.js"></script>
+</head>
+<body>
+<h1>Welcome to the Vedic Universe Creator!</h1>
+
+<label for="cosmicBody">Cosmic Body:</label>
+<input type="text" id="cosmicBody" placeholder="Cosmic Body Name">
+
+<label for="cosmicType">Cosmic Body Type:</label>
+<input type="text" id="cosmicType" placeholder="Cosmic Body Type (e.g., Planet, Moon)">
+
+<label for="orbit">Orbit:</label>
+<input type="text" id="orbit" placeholder="Orbit (e.g., Solar, Earth)">
+
+<label for="mass">Mass:</label>
+<input type="number" id="mass" placeholder="Mass (in kg)">
+
+<label for="radius">Radius:</label>
+<input type="number" id="radius" placeholder="Radius (in meters)">
+
+<label for="planet">Planet (for Moons only):</label>
+<input type="text" id="planet" placeholder="Planet">
+
+<button id="addCosmicBody" onclick="createCosmicBody()">Add Cosmic Body</button>
+
+<h2>Cosmic Bodies in the Vedic Universe:</h2>
+<ul id="cosmicBodies"></ul>
+</body>
+</html>
